@@ -1,25 +1,31 @@
 .container {
-    margin: auto;
+    margin: 0 50px;
 }
+
 .header {
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
     height: 109px;
-    padding: 92px 49px 92px 51px;
+    margin: 90px 50px 100px 50px;
 }
 
 .header__menu__list {
+    margin-right: 70px;
+    margin-left: 10px;
     display: flex;
-    justify-content: space-around;
-    align-items: end;
- 
+    gap: 22px;
+    /* margin: 0; */
+
+
 
 }
 
 .header__menu__list__item {
-    margin: 0 10px;
     list-style: circle;
+
+
 
 }
 
@@ -33,27 +39,377 @@
 }
 
 .header__menu__list__item__link {
-  
+
 
     font-family: Raleway;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 19px;
     font-style: normal;
     line-height: normal;
 }
 
 .header__logo__image {
     display: block;
+    margin-left: 10px;
     width: 148px;
 
 }
 
-.header__address {
-    
+.header__empty {
+    width: 100px;
+}
 
+.header__address {
+    margin-right: 25px;
+    align-content: flex-end;
     font-family: Raleway;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 24.3px;
+}
+
+
+/* Начало секции COVER  */
+
+
+.cover {
+    position: relative;
+    height: 800px;
+    background-image: url(../images/cover.jpg);
+    padding-bottom: 50px;
+
+
+}
+
+
+.cover__title {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    padding-top: 177px;
+    padding-left: 40px;
+    padding-bottom: 135px;
+}
+
+.cover__title__span {
+
+    display: block;
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 115%;
+    letter-spacing: 30px
+}
+
+.cover__title__span__center {
+    letter-spacing: 30px;
+    text-align: center;
+    padding-top: 21px;
+    padding-right: 103px;
+}
+
+
+.cover__title__span__right {
+    letter-spacing: 30px;
+    text-align: right;
+    margin-top: 12px;
+    margin-right: 40px
+}
+
+.cover__title__span__lonely-letter {
+
+    /* padding-right: 10px; */
+}
+
+.lonely-letter-o {
+    /* position: relative;
+    right: 0px; */
+    /* margin-right: 50px; */
+}
+
+.lonely-letter-n {
+    margin-right: 45px;
+}
+
+.cover__description {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.cover__description-text {
+    color: #FFF;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    word-spacing: 25px;
+    text-transform: uppercase;
+    padding-top: 15px;
+    margin-right: -10px;
+}
+
+.bet-button {
+    position: absolute;
+    right: 3.8%;
+    z-index: 2;
+    display: inline;
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    border: solid 3.5px #fff;
+    padding: 10px 40px 10px;
+}
+
+.overley {
+    position: absolute;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    background: #00000068;
+}
+
+
+/* Начало секции LOTS  */
+
+
+
+.lots {
+    padding: 180px 0px 182px 0px;
+}
+
+.lots__article__title {
+    color: #000;
+    font-family: Raleway;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 27px 40px;
+}
+
+.lots__article__list {
+    box-sizing: content-box;
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+    padding-bottom: 30px;
+
+
+}
+
+.lots__article__list__item {
+    list-style-type: none;
+}
+
+.lots__film__background {
+    background-image: url(/images/card-lot-01.jpg);
+    background-size: 103%;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.lots__book__background {
+    background-image: url(/images/card-lot-02.jpg);
+    background-size: 103%;
+}
+
+.lots__picture__background {
+    background-image: url(/images/card-lot-03.jpg);
+    background-size: 102%;
+}
+
+
+.lots__article__list__item__card {
+    position: relative;
+    width: 460px;
+    height: 480px;
+
+}
+
+.lots__article__list__item__card__content {
+    padding: 58px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+.lots__article__list__item__card__title {
+    z-index: 1;
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+}
+
+.lots__article__list__item__card__text {
+    z-index: 1;
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 2px;
+}
+
+.lots__button {
+    position: relative;
+    top: 5px;
+    margin: 50px 40px;
+    color: #000;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal
+}
+
+
+/* Начало секции ABOUT */
+
+.about {
+    height: 487px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.about__logo__container {
+    margin: 0 95px;
+}
+
+.about__logo__container__background {
+    background-color: #000;
+    width: 240px;
+    border-radius: 1000px;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+.about__logo__container__background__img {
+    padding: 63px 46px;
+}
+
+.about__column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 885px;
+    margin-top: 75px;
+    margin-right: 80px;
+}
+
+.about__column__title {
+    color: #000;
+    font-family: Raleway;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 115px;
+    margin-bottom: 110px;
+}
+
+.about__column__text__p {
+    color: #000;
+    margin-bottom: 25px;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+
+/* Начало FOOTER */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 237px 50px;
+}
+
+.footer__menu {
+    display: flex;
+    margin-left: 33px;
+
+}
+
+.footer__address {
+margin-left: -10px;
+    align-content: flex-end;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24.3px;
+}
+
+.footer__menu__list__item {
+    list-style: none;
+    list-style-type: none;
+}
+
+.footer__menu__list__item__link {
+    display: block;
+    color: #000;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer__menu__list__item__link-active {
+    text-decoration: none;
+
+}
+
+.footer__social {
+ margin-right: -28px;
+}
+
+.footer__social-list {
+  
+    width: 280px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.footer__social-list__item {
+    list-style-type: none;
+
+
+}
+
+
+.footer__menu__list__item__link {
+    text-align: center;
+
+}
+
+.footer__social-list__item__img {
+    height: 48px;
 }
