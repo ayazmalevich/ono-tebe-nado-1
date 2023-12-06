@@ -350,6 +350,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  text-align: center;
 }
 
 .footer__menu-link_active {
@@ -366,9 +367,6 @@
   list-style-type: none;
 }
 
-.footer__menu-link {
-  text-align: center;
-}
 
 .footer__social-icon {
   height: 48px;
