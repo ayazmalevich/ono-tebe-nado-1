@@ -183,12 +183,10 @@
   padding-bottom: 30px;
 }
 
-.lots-item-low {
-  flex-grow: 1;
-}
+
 
 .lots__card-list-item {
-  flex-grow: 3;
+  flex-grow: 1;
   flex-basis: 430px;
   list-style-type: none;
 }
@@ -210,7 +208,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 430px;
+  /* width: 430px; */
   min-height: 450px;
   padding: 50px 40px;
   background-repeat: no-repeat;
