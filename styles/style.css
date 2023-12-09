@@ -48,7 +48,7 @@
 }
 
 .address {
-  align-content: flex-end;
+  justify-self: end;
   width: 240px;
   font-family: Raleway, Arial, sans-serif;
   font-weight: 400;
@@ -65,7 +65,7 @@
   background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: 100%;
+  background-size: cover;
 }
 
 .cover__title {
@@ -94,7 +94,7 @@
   display: block;
 }
 
-.aligned-text__left {
+.aligned-text_left {
   text-align: left;
 }
 
@@ -262,6 +262,8 @@
 }
 
 .about__logo {
+  display: flex;
+  justify-content: center;
   width: 240px;
   height: 240px;
   margin-left: 143px;
@@ -304,9 +306,6 @@
   line-height: 23px;
 }
 
-.нижний текст bottom-text {
-  margin-top: 10px;
-}
 
 /* Начало FOOTER */
 
@@ -353,12 +352,4 @@
 
 .footer__social-icon {
   height: 48px;
-}
-
-.lots__background__bookxxxxx {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  min-height: 450px;
-  padding: 50px 40px;
 }
