@@ -264,6 +264,7 @@
 .about__logo {
   display: flex;
   justify-content: center;
+  align-items: center;
   width: 240px;
   height: 240px;
   margin-left: 143px;
@@ -272,7 +273,8 @@
 }
 
 .about__logo-image {
-  padding: 63px 46px;
+  width: 148px;
+  height: 114px;
 }
 
 .about__column {
